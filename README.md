@@ -21,10 +21,11 @@ SpringCloud项目的jenkins部署启动脚本
 
 ## 使用说明
 #### jenkins配置  
-1. 拉取启动脚本到构建节点上
+1. 拉取启动脚本到构建节点上，其中拉取的start.sh为**二进制文件路径**
 ![拉取启动脚本](./pic/getShell.png)
 
-2. 复制包文件、启动脚本等到执行节点上，然后执行脚本（若是解密启动，需注意提前放置xjar-agent-hibernate.jar包）
+2. 复制包文件、启动脚本等到执行节点上，然后执行脚本  
+（若是解密启动，需注意提前放置xjar-agent-hibernate.jar包，默认该包放置当前模块的上级目录下）
 ![执行启动脚本](./pic/exeShell.png)
 
 #### jenkins日志
