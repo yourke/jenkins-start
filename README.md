@@ -18,6 +18,8 @@ SpringCloud项目的jenkins部署启动脚本
 > 用于加密jar的启动（使用[xjar](https://gitee.com/core-lib/xjar/)方式进行的加密）  
 > 例：sh start-xjar.sh --xjar.password=123 --spring.profiles.active=dev  
 
+两者仅启动命令部分有所不同
+![脚本差异对比](./pic/different.png)
 
 ## 使用说明
 #### jenkins配置  
